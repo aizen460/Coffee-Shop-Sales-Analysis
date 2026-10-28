@@ -1,7 +1,8 @@
+
 /*
 ===========================================================
 PROJECT : Coffee Shop Sales Analysis
-Author  : Tanmay Chavan
+Author  : Tanmay Chawan
 
 STEP 1
 Create Products Table
@@ -103,6 +104,34 @@ SELECT *
 FROM transactions
 LIMIT 10;
 
+
+-- ==========================================================
+-- STEP 8: ADD PRIMARY KEYS
+-- ==========================================================
+
+ALTER TABLE products
+ADD PRIMARY KEY (product_id);
+
+ALTER TABLE stores
+ADD PRIMARY KEY (store_id);
+
+ALTER TABLE transactions
+ADD PRIMARY KEY (transaction_id);
+
+
+-- ==========================================================
+-- STEP 9: ADD FOREIGN KEYS
+-- ==========================================================
+
+ALTER TABLE transactions
+ADD CONSTRAINT fk_transactions_products
+FOREIGN KEY (product_id)
+REFERENCES products(product_id);
+
+ALTER TABLE transactions
+ADD CONSTRAINT fk_transactions_stores
+FOREIGN KEY (store_id)
+REFERENCES stores(store_id);
 
 
 
