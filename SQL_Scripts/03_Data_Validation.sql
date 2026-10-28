@@ -61,6 +61,24 @@ FROM products;
 SELECT COUNT(*) AS Total_Stores
 FROM stores;
 
+
+-- ==========================================================
+-- QUESTION 4: VALIDATE TRANSACTION RELATIONSHIPS
+-- ==========================================================
+
+SELECT
+    t.transaction_id,
+    t.product_id,
+    t.store_id
+FROM transactions t
+LEFT JOIN products p
+    ON t.product_id = p.product_id
+LEFT JOIN stores s
+    ON t.store_id = s.store_id
+WHERE p.product_id IS NULL
+   OR s.store_id IS NULL;
+
+
 /*
 Conclusion:
 Verified the total number of records
