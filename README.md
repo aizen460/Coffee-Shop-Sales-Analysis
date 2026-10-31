@@ -2,7 +2,7 @@
 
 > End-to-end sales analysis of three coffee shop stores (Jan–Jun 2023): raw CSV → relational MySQL database → SQL business analysis → 3-page interactive Power BI report.
 
-![Sales Overview](https://github.com/user-attachments/assets/fd7d4814-d0e1-4395-b9c4-056e62a91c7d)
+
 
 
 
@@ -123,9 +123,18 @@ The scripts contain 31 numbered business questions covering revenue, products, s
 | **2. Product Analysis** | Top 10 products by revenue, top 10 product types by quantity, and a product type performance table (revenue, quantity, average unit price) |
 | **3. Product Demand** | A drill-through page. Right-click any product (for example in the Top 10 Products chart) → **Drill through** → **Product Demand** to see its monthly demand, quantity by store and demand by hour, with its best-selling month, top store and peak sales hour |
 
-![Product Analysis](https://github.com/user-attachments/assets/0a277e4a-a641-45a8-bd3e-87cc4411873c)
-![Product Demand](https://github.com/user-attachments/assets/800b9c33-798a-460a-a24f-50166b5a931d)
+### 1. Sales Overview
 
+![Sales Overview](https://github.com/aizen460/Coffee-Shop-Sales-Analysis/blob/main/PowerBI/Screenshots/Sales_Overview.png)
+
+
+### 3. Product Analysis
+
+![Product Analysis](https://github.com/aizen460/Coffee-Shop-Sales-Analysis/blob/main/PowerBI/Screenshots/Product_Analysis.png)
+
+### 4. Product Demand
+
+![Product Demand](https://github.com/aizen460/Coffee-Shop-Sales-Analysis/blob/main/PowerBI/Screenshots/Product_Demand.png)
 ### Key DAX Measures
 
 ```dax
