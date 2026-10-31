@@ -226,4 +226,7 @@ Coffee-Shop-Sales-Analysis/
 **Tanmay Chawan** | B.Sc. Data Science student (graduating 2027) | Navi Mumbai, India
 Seeking Data Analyst and Business Analyst internships (Mumbai, Navi Mumbai, Thane, remote)
 
-📧 [Email](mailto:chavantanmay37@gmail.com) · 🔗 [LinkedIn](https://www.linkedin.com/in/tanmaychawan/)
+📧 [Email Me](mailto:chavantanmay37@gmail.com)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/tanmaychawan/)
+    
