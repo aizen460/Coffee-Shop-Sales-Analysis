@@ -184,22 +184,29 @@ Other measures: Best-Selling Product, Best-Selling Month, Top Store, Peak Sales 
 ## Repository Structure
 
 ```text
+## Repository Structure
+
 Coffee-Shop-Sales-Analysis/
+│
 ├── Dataset/
 │   └── Coffee Shop Sales.csv
+│
+├── PowerBI/
+│   ├── Screenshots/
+│   │   ├── Sales_Overview.png
+│   │   ├── Data_Model.png
+│   │   ├── Product_Analysis.png
+│   │   └── Product_Demand.png
+│   │
+│   └── coffe_shop.pbix
+│
 ├── SQL_Scripts/
 │   ├── 01_Create_Tables.sql
 │   ├── 02_Data_Quality_Checks.sql
 │   ├── 03_Data_Validation.sql
 │   ├── 04_EDA.sql
 │   └── 05_Business_Analysis.sql
-├── PowerBI/
-│   └── Coffee_Shop_Sales.pbix
-├── Screenshots/
-│   ├── Sales_Overview.png
-│   ├── Product_Analysis.png
-│   ├── Product_Demand.png
-│   └── Data_Model.png
+│
 └── README.md
 ```
 
@@ -208,7 +215,7 @@ Coffee-Shop-Sales-Analysis/
 1. Download the dataset from the [Dataset folder](https://github.com/aizen460/Coffee-Shop-Sales-Analysis/tree/main/Dataset).
 2. Import the CSV dataset into MySQL.
 3. Run all five SQL scripts in the [MySQL Scripts folder](https://github.com/aizen460/Coffee-Shop-Sales-Analysis/tree/main/SQL_Scripts) in numbered order.
-4. Download the [Power BI Dashboard (.pbix)](https://github.com/aizen460/Coffee-Shop-Sales-Analysis/blob/main/PowerBI/Coffee_Shop_Sales.pbix).
+4. Download the [Power BI Dashboard (.pbix)](https://github.com/aizen460/Coffee-Shop-Sales-Analysis/blob/main/PowerBI/coffe_shop.pbix).
 5. Open the downloaded file in Power BI Desktop.
 6. Refresh the data source and explore the interactive dashboard.
 
